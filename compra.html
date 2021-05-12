@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <img src="https://www.flaticon.es/svg/vstatic/svg/22/22819.svg?token=exp=1620735384~hmac=aab055773f55140a7fe167735904b55a" alt="">
+            </div>
+            <nav>
+                <a href="/index.html">Home</a>
+                <a href="#">Compra</a>
+            </nav>
+        </header>
+        <section>
+            <h1 id="title">Almacen de computadores</h1>
+            <fieldset>
+                <form id="formulario">
+                    <div class="form1">
+                        <label for="cantidad">Cantidad de computadores comprados</label>
+                        <input type="number" name="cantidad" id="idcantidad" placeholder="ingresa la cantidad" required>
+                        <button onclick="Calcular()">Calcular</button>
+                    </div>
+                    <h1>Orden de compra</h1>
+                    <div class="form2">
+                        <label for="valorcompra">Valor de compra</label>
+                        <input type="number" name="valorcompra" id="valorcompra"> <br/>
+    
+                        <label for="valordescuento">Valor de descuento</label>
+                        <input type="text" name="valordescuento" id="valordescuento"> <br/>
+    
+                        <label for="total">Total</label>
+                        <input type="text" name="total" id="total"></div>
+                        <p id="descuento"></p>
+                    </div>
+                </form>
+            </fieldset>
+        </section>
+        <script src="script.js"></script>
+</body>
+</html>
